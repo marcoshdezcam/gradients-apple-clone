@@ -4,3 +4,42 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+main {
+  background-image: url(../img/hero-background.jpg);
+  background-position: center 100%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  max-width: 1440px;
+  height: 38vw;
+}
+
+#related-links {
+  display: flex;
+}
+
+.bottom-images {
+  width: 25%;
+  height: 364px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#iphone-5s {
+  background-image: url(../img/promo_iphone5s.jpg);
+}
+
+#iphone-5c {
+  background-image: url(../img/promo_iphone5c.jpg);
+}
+
+#happy-30-birthday {
+  background-image: url(../img/promo_30_years.jpg);
+}
+
+#supplier-responsability {
+  background-image: url(../img/promo_supplier_responsibility.jpg);
+}
