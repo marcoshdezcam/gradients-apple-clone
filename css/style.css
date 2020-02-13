@@ -6,14 +6,18 @@
 }
 
 main {
-  background-image: url(../img/hero-background.jpg);
-  background-position: center 100%;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100vw;
   max-width: 1440px;
-  height: 38vw;
+  margin: 0 auto;
+}
+
+#main-image {
+  background-image: url(../img/hero-background.jpg);
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  margin: 0 auto;
 }
 
 #related-links {
@@ -22,8 +26,8 @@ main {
 
 .bottom-images {
   width: 25%;
-  height: 364px;
-  background-position: center center;
+  height: 200px;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
 }
