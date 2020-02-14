@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 12px;
+  line-height: 18px;
+}
+
 main {
   width: 100vw;
   max-width: 1440px;
@@ -12,7 +17,7 @@ main {
 }
 
 #main-text {
-  text-align: center;
+  padding: 5rem 0;
 }
 
 #what-verse {
@@ -41,6 +46,10 @@ main {
   margin: 0 auto;
   width: 40rem;
   height: 2.3rem;
+}
+
+#watch-your-verse:hover {
+  background-position: top 100% left 0;
 }
 
 #main-image {
@@ -78,4 +87,42 @@ main {
 
 #supplier-responsability {
   background-image: url(../img/promo_supplier_responsibility.jpg);
+}
+
+footer {
+  width: 70vw;
+  max-width: 980px;
+  margin: 0 auto;
+
+  /* Text properties */
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: #6e6e6e;
+  font-size: 0.8334rem;
+  line-height: 1.2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#links-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#links-footer span {
+  padding: 0.5rem 0;
+}
+
+#usa-language {
+  width: 16px;
+  height: 16px;
 }
