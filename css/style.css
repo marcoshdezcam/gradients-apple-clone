@@ -11,12 +11,44 @@ main {
   margin: 0 auto;
 }
 
-#main-image {
-  background-image: url(../img/hero-background.jpg);
-  background-position: center 100%;
+#main-text {
+  text-align: center;
+}
+
+#what-verse {
+  background-image: url("../img/your_verse_title_medium.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  width: 40rem;
+  height: 5rem;
+}
+
+#share-your-story {
+  background-image: url("../img/your_verse_subhead_medium.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  width: 60rem;
+  height: 7rem;
+}
+
+#watch-your-verse {
+  background-image: url("../img/cta_your_verse_46pt.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  background-position: top 0 left 0;
+  margin: 0 auto;
+  width: 40rem;
+  height: 2.3rem;
+}
+
+#main-image {
+  background-image: url("../img/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 0 left 0;
+  height: 80vh;
   margin: 0 auto;
 }
 
