@@ -16,6 +16,71 @@ main {
   margin: 0 auto;
 }
 
+/* Navigation bar */
+nav {
+  width: 70%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  background-image: url("../img/globalnav_text.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 9rem;
+  height: 2.5rem;
+}
+
+#apple-icon {
+  background-position: bottom 100% center;
+}
+
+#store {
+  background-position: bottom 85.1% center;
+}
+
+#mac {
+  background-position: bottom 71.1% center;
+}
+
+#ipod {
+  background-position: bottom 57.2% center;
+}
+
+#iphone {
+  background-position: bottom 42.2% center;
+}
+
+#ipad {
+  background-position: bottom 28% center;
+}
+
+#itunes {
+  background-position: bottom 14% center;
+}
+
+#support {
+  background-position: bottom -1% center;
+}
+
+#search {
+  background-image: none;
+}
+
+#main-image {
+  background-image: url("../img/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 0 left 0;
+  height: 78vh;
+  margin: 0 auto;
+}
+
 #main-text {
   padding: 5rem 0;
 }
@@ -25,8 +90,8 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
-  width: 40rem;
-  height: 5rem;
+  width: 80rem;
+  height: 10rem;
 }
 
 #share-your-story {
@@ -34,8 +99,8 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
-  width: 60rem;
-  height: 7rem;
+  width: 80rem;
+  height: 10rem;
 }
 
 #watch-your-verse {
@@ -44,21 +109,12 @@ main {
   background-size: cover;
   background-position: top 0 left 0;
   margin: 0 auto;
-  width: 40rem;
-  height: 2.3rem;
+  width: 50rem;
+  height: 2.95rem;
 }
 
 #watch-your-verse:hover {
   background-position: top 100% left 0;
-}
-
-#main-image {
-  background-image: url("../img/hero-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom 0 left 0;
-  height: 80vh;
-  margin: 0 auto;
 }
 
 #related-links {
