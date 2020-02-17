@@ -16,14 +16,32 @@ main {
   margin: 0 auto;
 }
 
+/* Maing image container */
+#main-image {
+  background-image: url("../img/hero-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 0 left 0;
+  height: 78vh;
+  margin: 0 auto;
+}
+
 /* Navigation bar */
 nav {
   width: 70%;
   max-width: 980px;
   margin: 0 auto;
+  position: relative;
+  top: 60px;
+  padding: 20px 0;
 }
 
 nav ul {
+  background: linear-gradient(to top, #8a8a8a 0%, #717171 50%, #5e5e5e 50%, #737373 100%);
+  border-radius: 5px;
+  border: #545454 1px solid;
+  width: 100%;
+  height: 35px;
   display: flex;
   flex-direction: row;
 }
@@ -33,52 +51,74 @@ nav ul li {
   background-repeat: no-repeat;
   background-size: auto;
   width: 9rem;
-  height: 2.5rem;
+  height: 98%;
+}
+
+nav ul li:hover {
+  background-image: url("../img/globalnav_text.png"), radial-gradient(circle, #11111161, #21212161);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 9rem;
+  height: 100%;
+}
+
+.nav-separator-in {
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to top, #696969 0%, #545454 50%, #464646 50%, #565656 100%);
+  margin: 0 auto;
+}
+
+.nav-separator-out {
+  width: 3px;
+  height: 100%;
+  background-image: linear-gradient(to top, #989898 0%, #7e7e7e 50%, #6e6e6e 50%, #818181 100%);
 }
 
 #apple-icon {
-  background-position: bottom 100% center;
+  background-position: bottom 101% center;
 }
 
 #store {
-  background-position: bottom 85.1% center;
+  background-position: bottom 87% center;
 }
 
 #mac {
-  background-position: bottom 71.1% center;
+  background-position: bottom 72.5% center;
 }
 
 #ipod {
-  background-position: bottom 57.2% center;
+  background-position: bottom 58% center;
 }
 
 #iphone {
-  background-position: bottom 42.2% center;
+  background-position: bottom 43.5% center;
 }
 
 #ipad {
-  background-position: bottom 28% center;
+  background-position: bottom 29.5% center;
 }
 
 #itunes {
-  background-position: bottom 14% center;
+  background-position: bottom 15% center;
 }
 
 #support {
-  background-position: bottom -1% center;
+  background-position: bottom 0.5% center;
 }
 
 #search {
   background-image: none;
 }
 
-#main-image {
-  background-image: url("../img/hero-background.jpg");
+#search input {
+  width: 100%;
+  height: 50%;
+  margin: 12% 0;
+  background-image: url("../img/índice-white.png"), linear-gradient(to top, #8a8a8a 0%, #717171 50%, #5e5e5e 50%, #737373 100%);
+  border: 0;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom 0 left 0;
-  height: 78vh;
-  margin: 0 auto;
+  border-radius: 10px;
 }
 
 #main-text {
@@ -127,6 +167,7 @@ nav ul li {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: contain;
+  border: 1px white solid;
 }
 
 #iphone-5s {
@@ -174,11 +215,12 @@ footer a:hover {
   padding: 1rem 0;
 }
 
-#links-footer span {
-  padding: 0.5rem 0;
+#right-footer-links a {
+  border-right: 1px solid #ccc;
+  padding: 0 6px;
 }
 
 #usa-language {
-  width: 16px;
-  height: 16px;
+  width: 0.9rem;
+  height: 0.9rem;
 }
