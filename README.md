@@ -1,39 +1,21 @@
-# Project Name
+# The Odin Project: Clone of the Apple Home Page of 2014
 
-> This is a clone of the old version of the [Apple website](https://web.archive.org/web/20140301004610/http://www.apple.com/)
-> This project consists of building a webpage using images as a background and adding gradients to elements. 
+> This is a clone of the old version of the 2014 [Apple website](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+> This project uses gradients to mimic the original navigation bar. 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/app_screenshot.png)
 
 
 ## Built With
 
 - HTML
 - CSS
+- CSS Flexbox
+- CSS Gradients
 
 ## Live Demo
 
-[Live Demo Link]()
-
-
-## Getting Started
-
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://marcoshdezcam.github.io/gh-pages-lives/)
 
 
 ## Authors
@@ -54,10 +36,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-
 
 ## 📝 License
 

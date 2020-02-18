@@ -36,7 +36,7 @@ nav {
   padding: 20px 0;
 }
 
-nav ul {
+#nav-background {
   background: linear-gradient(to top, #8a8a8a 0%, #717171 50%, #5e5e5e 50%, #737373 100%);
   border-radius: 5px;
   border: #545454 1px solid;
@@ -46,33 +46,32 @@ nav ul {
   flex-direction: row;
 }
 
-nav ul li {
+.nav-item {
   background-image: url("../img/globalnav_text.png");
   background-repeat: no-repeat;
   background-size: auto;
   width: 9rem;
-  height: 98%;
+  height: 100%;
+  cursor: pointer;
+  border-left: #dddddd30 1px solid;
+  border-right: #dddddd30 1px solid;
 }
 
-nav ul li:hover {
+.nav-item:hover {
   background-image: url("../img/globalnav_text.png"), radial-gradient(circle, #11111161, #21212161);
   background-repeat: no-repeat;
   background-size: auto;
   width: 9rem;
   height: 100%;
+  border-left: none;
+  border-right: none;
 }
 
 .nav-separator-in {
   width: 1px;
   height: 100%;
-  background: linear-gradient(to top, #696969 0%, #545454 50%, #464646 50%, #565656 100%);
+  background-image: linear-gradient(to top, #696969 0%, #545454 50%, #464646 50%, #565656 100%);
   margin: 0 auto;
-}
-
-.nav-separator-out {
-  width: 3px;
-  height: 100%;
-  background-image: linear-gradient(to top, #989898 0%, #7e7e7e 50%, #6e6e6e 50%, #818181 100%);
 }
 
 #apple-icon {
@@ -112,35 +111,48 @@ nav ul li:hover {
 }
 
 #search input {
-  width: 100%;
-  height: 50%;
-  margin: 12% 0;
   background-image: url("../img/índice-white.png"), linear-gradient(to top, #8a8a8a 0%, #717171 50%, #5e5e5e 50%, #737373 100%);
-  border: 0;
+  background-position: top 3px left 5px, top 0 left 0;
   background-repeat: no-repeat;
+  box-shadow: inset 0 0 3px #464646;
+  margin: 6% 0;
+  padding-left: 20px;
+  border: #717171 1px solid;
   border-radius: 10px;
+  width: 100%;
+  height: 60%;
+}
+
+#search input:focus {
+  background: url("../img/índice.png"), white;
+  background-position: top 3px left 5px, top 0 left 0;
+  background-repeat: no-repeat;
+  box-shadow: none;
 }
 
 #main-text {
   padding: 5rem 0;
+  text-align: center;
 }
 
 #what-verse {
   background-image: url("../img/your_verse_title_medium.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 0 auto;
-  width: 80rem;
-  height: 10rem;
+  display: inline-block;
+  cursor: pointer;
+  width: 65%;
+  height: 8rem;
 }
 
 #share-your-story {
   background-image: url("../img/your_verse_subhead_medium.png");
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 0 auto;
-  width: 80rem;
-  height: 10rem;
+  display: inline-block;
+  cursor: pointer;
+  width: 70%;
+  height: 9rem;
 }
 
 #watch-your-verse {
@@ -148,7 +160,8 @@ nav ul li:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 0 left 0;
-  margin: 0 auto;
+  display: inline-block;
+  cursor: pointer;
   width: 50rem;
   height: 2.95rem;
 }
@@ -159,14 +172,16 @@ nav ul li:hover {
 
 #related-links {
   display: flex;
+  height: 15vh;
+  min-height: 200px;
 }
 
 .bottom-images {
   width: 25%;
-  height: 200px;
+  height: 100%;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   border: 1px white solid;
 }
 
